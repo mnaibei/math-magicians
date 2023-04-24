@@ -48,9 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[]**
-- **[]**
-- **[]**
+- **[Calculator]**
+- **[Math Quotes]**
+- **[Multipe pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
