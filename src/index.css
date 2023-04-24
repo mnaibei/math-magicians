@@ -33,6 +33,10 @@
   font-size: 1em;
 }
 
+.calculator-grid > button:active {
+  background-color: bisque;
+}
+
 .calculator-grid > .orange {
   background-color: orange;
 }
