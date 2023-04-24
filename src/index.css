@@ -1,25 +1,42 @@
-/* body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family:
-    -apple-system, BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family:
-    source-code-pro, Menlo, Monaco, Consolas,
+.result {
+  border: 1px solid white;
+  cursor: pointer;
+  grid-column: 1 / -1;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0.75rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: white;
+  font-size: 2.5rem;
+}
 
-    'Courier New',
+.calculator-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
 
-    monospace;
-} */
+.calculator-grid > button {
+  cursor: pointer;
+  height: 60px;
+  border: 1px solid white;
+  font-size: 1em;
+}
+
+.calculator-grid > .orange {
+  background-color: orange;
+}
+
+.span {
+  grid-column: span 2;
+}
