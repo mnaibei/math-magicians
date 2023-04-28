@@ -1,9 +1,14 @@
 import React from 'react';
 import Display from './display';
+import '../styles/calculatorPage.css';
 
 function Calculator() {
   return (
-    <Display />
+    <div className="calc-page">
+      <h2 className="text">Let&apos;s do some Math!</h2>
+      <Display />
+    </div>
+
   );
 }
 

@@ -2,50 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: cursive;
 }
 
-.result {
-  border: 1px solid white;
-  cursor: pointer;
-  grid-column: 1 / -1;
-  background-color: gray;
+body {
+  background-color: wheat;
+}
+
+.content {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-around;
-  padding: 0.75rem;
-  word-wrap: break-word;
-  word-break: break-all;
-  color: white;
-  font-size: 2.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.calculator-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 10px;
-}
-
-.calculator-grid > button {
-  cursor: pointer;
-  height: 60px;
-  border: 1px solid white;
-  font-size: 1em;
-}
-
-.calculator-grid > button:active {
-  background-color: bisque;
-}
-
-.calculator-grid > .orange {
-  background-color: orange;
-}
-
-.span {
-  grid-column: span 2;
-}
-
+/* Quotes  */
 .quotes {
-  border: 1px solid red;
+  border: 1px solid rgb(146, 135, 212);
   padding: 10px;
+  margin: 10px;
+  margin-top: 100px;
+  text-align: justify;
 }
