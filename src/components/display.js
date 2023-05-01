@@ -11,7 +11,7 @@ function Display() {
 
   return (
     <div className="calculator-grid">
-      <div className="result">{state.next || state.total}</div>
+      <div className="result">{state.next || state.total || '0'}</div>
       <button type="button" onClick={() => click('AC')}>AC</button>
       <button type="button" onClick={() => click('+/-')}>+/-</button>
       <button type="button" onClick={() => click('%')}>%</button>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
-const url = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
+const url = 'https://api.api-ninjas.com/v1/quotes?category';
 const key = process.env.REACT_APP_API_KEY;// api key redacted due to gitguardian error
 
 function Quotes() {
-  const [quote, displayQuotes] = useState('');// quote state
+  const [quote, displayQuotes] = useState(null);// quote state
   const [loading, setLoading] = useState(true);// isLoading state
   const [error, setError] = useState(null);// error state
 
